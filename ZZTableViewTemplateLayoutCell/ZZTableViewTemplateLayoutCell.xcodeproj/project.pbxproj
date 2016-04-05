@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20173C5D1CB3616B0040BE7B /* ZZFeedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20173C5C1CB3616B0040BE7B /* ZZFeedEntity.swift */; };
+		20173C5F1CB363020040BE7B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 20173C5E1CB363020040BE7B /* data.json */; };
+		20173F531CB375BA0040BE7B /* ZZFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20173F521CB375BA0040BE7B /* ZZFPSLabel.swift */; };
+		2022DBF51CB2283900716BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022DBF41CB2283900716BF8 /* AppDelegate.swift */; };
+		2022DBF71CB2283900716BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022DBF61CB2283900716BF8 /* ViewController.swift */; };
+		2022DBFA1CB2283900716BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2022DBF81CB2283900716BF8 /* Main.storyboard */; };
+		2022DBFC1CB2283900716BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2022DBFB1CB2283900716BF8 /* Assets.xcassets */; };
+		2022DBFF1CB2283900716BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2022DBFD1CB2283900716BF8 /* LaunchScreen.storyboard */; };
+		2022DC0A1CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022DC091CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.swift */; };
+		2022DC151CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022DC141CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.swift */; };
+		2022DC231CB2287800716BF8 /* UITableView+ZZLayoutCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022DC221CB2287800716BF8 /* UITableView+ZZLayoutCache.swift */; };
+		2022DC261CB35AF900716BF8 /* ZZFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022DC251CB35AF900716BF8 /* ZZFeedCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2022DC061CB2283900716BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2022DBE91CB2283900716BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2022DBF01CB2283900716BF8;
+			remoteInfo = ZZTableViewTemplateLayoutCell;
+		};
+		2022DC111CB2283900716BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2022DBE91CB2283900716BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2022DBF01CB2283900716BF8;
+			remoteInfo = ZZTableViewTemplateLayoutCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20173C5C1CB3616B0040BE7B /* ZZFeedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZFeedEntity.swift; sourceTree = "<group>"; };
+		20173C5E1CB363020040BE7B /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		20173F521CB375BA0040BE7B /* ZZFPSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZFPSLabel.swift; sourceTree = "<group>"; };
+		2022DBF11CB2283900716BF8 /* ZZTableViewTemplateLayoutCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTableViewTemplateLayoutCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2022DBF41CB2283900716BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2022DBF61CB2283900716BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2022DBF91CB2283900716BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2022DBFB1CB2283900716BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2022DBFE1CB2283900716BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2022DC001CB2283900716BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2022DC051CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTableViewTemplateLayoutCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2022DC091CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTableViewTemplateLayoutCellTests.swift; sourceTree = "<group>"; };
+		2022DC0B1CB2283900716BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2022DC101CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTableViewTemplateLayoutCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2022DC141CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTableViewTemplateLayoutCellUITests.swift; sourceTree = "<group>"; };
+		2022DC161CB2283900716BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2022DC221CB2287800716BF8 /* UITableView+ZZLayoutCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ZZLayoutCache.swift"; sourceTree = "<group>"; };
+		2022DC251CB35AF900716BF8 /* ZZFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZFeedCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2022DBEE1CB2283900716BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2022DC021CB2283900716BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2022DC0D1CB2283900716BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20173F541CB375C30040BE7B /* ZZLayoutCache */ = {
+			isa = PBXGroup;
+			children = (
+				20173F521CB375BA0040BE7B /* ZZFPSLabel.swift */,
+				2022DC221CB2287800716BF8 /* UITableView+ZZLayoutCache.swift */,
+			);
+			name = ZZLayoutCache;
+			sourceTree = "<group>";
+		};
+		2022DBE81CB2283900716BF8 = {
+			isa = PBXGroup;
+			children = (
+				2022DBF31CB2283900716BF8 /* ZZTableViewTemplateLayoutCell */,
+				2022DC081CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests */,
+				2022DC131CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests */,
+				2022DBF21CB2283900716BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2022DBF21CB2283900716BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2022DBF11CB2283900716BF8 /* ZZTableViewTemplateLayoutCell.app */,
+				2022DC051CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.xctest */,
+				2022DC101CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2022DBF31CB2283900716BF8 /* ZZTableViewTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				20173F541CB375C30040BE7B /* ZZLayoutCache */,
+				2022DC241CB35AE400716BF8 /* Feed */,
+				2022DBF41CB2283900716BF8 /* AppDelegate.swift */,
+				2022DBF61CB2283900716BF8 /* ViewController.swift */,
+				2022DBF81CB2283900716BF8 /* Main.storyboard */,
+				2022DBFB1CB2283900716BF8 /* Assets.xcassets */,
+				2022DBFD1CB2283900716BF8 /* LaunchScreen.storyboard */,
+				2022DC001CB2283900716BF8 /* Info.plist */,
+			);
+			path = ZZTableViewTemplateLayoutCell;
+			sourceTree = "<group>";
+		};
+		2022DC081CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				2022DC091CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.swift */,
+				2022DC0B1CB2283900716BF8 /* Info.plist */,
+			);
+			path = ZZTableViewTemplateLayoutCellTests;
+			sourceTree = "<group>";
+		};
+		2022DC131CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2022DC141CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.swift */,
+				2022DC161CB2283900716BF8 /* Info.plist */,
+			);
+			path = ZZTableViewTemplateLayoutCellUITests;
+			sourceTree = "<group>";
+		};
+		2022DC241CB35AE400716BF8 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				2022DC251CB35AF900716BF8 /* ZZFeedCell.swift */,
+				20173C5C1CB3616B0040BE7B /* ZZFeedEntity.swift */,
+				20173C5E1CB363020040BE7B /* data.json */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2022DBF01CB2283900716BF8 /* ZZTableViewTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2022DC191CB2283900716BF8 /* Build configuration list for PBXNativeTarget "ZZTableViewTemplateLayoutCell" */;
+			buildPhases = (
+				2022DBED1CB2283900716BF8 /* Sources */,
+				2022DBEE1CB2283900716BF8 /* Frameworks */,
+				2022DBEF1CB2283900716BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTableViewTemplateLayoutCell;
+			productName = ZZTableViewTemplateLayoutCell;
+			productReference = 2022DBF11CB2283900716BF8 /* ZZTableViewTemplateLayoutCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2022DC041CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2022DC1C1CB2283900716BF8 /* Build configuration list for PBXNativeTarget "ZZTableViewTemplateLayoutCellTests" */;
+			buildPhases = (
+				2022DC011CB2283900716BF8 /* Sources */,
+				2022DC021CB2283900716BF8 /* Frameworks */,
+				2022DC031CB2283900716BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2022DC071CB2283900716BF8 /* PBXTargetDependency */,
+			);
+			name = ZZTableViewTemplateLayoutCellTests;
+			productName = ZZTableViewTemplateLayoutCellTests;
+			productReference = 2022DC051CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2022DC0F1CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2022DC1F1CB2283900716BF8 /* Build configuration list for PBXNativeTarget "ZZTableViewTemplateLayoutCellUITests" */;
+			buildPhases = (
+				2022DC0C1CB2283900716BF8 /* Sources */,
+				2022DC0D1CB2283900716BF8 /* Frameworks */,
+				2022DC0E1CB2283900716BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2022DC121CB2283900716BF8 /* PBXTargetDependency */,
+			);
+			name = ZZTableViewTemplateLayoutCellUITests;
+			productName = ZZTableViewTemplateLayoutCellUITests;
+			productReference = 2022DC101CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2022DBE91CB2283900716BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dz;
+				TargetAttributes = {
+					2022DBF01CB2283900716BF8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2022DC041CB2283900716BF8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2022DBF01CB2283900716BF8;
+					};
+					2022DC0F1CB2283900716BF8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2022DBF01CB2283900716BF8;
+					};
+				};
+			};
+			buildConfigurationList = 2022DBEC1CB2283900716BF8 /* Build configuration list for PBXProject "ZZTableViewTemplateLayoutCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2022DBE81CB2283900716BF8;
+			productRefGroup = 2022DBF21CB2283900716BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2022DBF01CB2283900716BF8 /* ZZTableViewTemplateLayoutCell */,
+				2022DC041CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests */,
+				2022DC0F1CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2022DBEF1CB2283900716BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2022DBFF1CB2283900716BF8 /* LaunchScreen.storyboard in Resources */,
+				2022DBFC1CB2283900716BF8 /* Assets.xcassets in Resources */,
+				2022DBFA1CB2283900716BF8 /* Main.storyboard in Resources */,
+				20173C5F1CB363020040BE7B /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2022DC031CB2283900716BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2022DC0E1CB2283900716BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2022DBED1CB2283900716BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2022DBF71CB2283900716BF8 /* ViewController.swift in Sources */,
+				2022DC231CB2287800716BF8 /* UITableView+ZZLayoutCache.swift in Sources */,
+				2022DBF51CB2283900716BF8 /* AppDelegate.swift in Sources */,
+				20173C5D1CB3616B0040BE7B /* ZZFeedEntity.swift in Sources */,
+				20173F531CB375BA0040BE7B /* ZZFPSLabel.swift in Sources */,
+				2022DC261CB35AF900716BF8 /* ZZFeedCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2022DC011CB2283900716BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2022DC0A1CB2283900716BF8 /* ZZTableViewTemplateLayoutCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2022DC0C1CB2283900716BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2022DC151CB2283900716BF8 /* ZZTableViewTemplateLayoutCellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2022DC071CB2283900716BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2022DBF01CB2283900716BF8 /* ZZTableViewTemplateLayoutCell */;
+			targetProxy = 2022DC061CB2283900716BF8 /* PBXContainerItemProxy */;
+		};
+		2022DC121CB2283900716BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2022DBF01CB2283900716BF8 /* ZZTableViewTemplateLayoutCell */;
+			targetProxy = 2022DC111CB2283900716BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2022DBF81CB2283900716BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2022DBF91CB2283900716BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2022DBFD1CB2283900716BF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2022DBFE1CB2283900716BF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2022DC171CB2283900716BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2022DC181CB2283900716BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2022DC1A1CB2283900716BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZTableViewTemplateLayoutCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZTableViewTemplateLayoutCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2022DC1B1CB2283900716BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZTableViewTemplateLayoutCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZTableViewTemplateLayoutCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2022DC1D1CB2283900716BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZTableViewTemplateLayoutCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZTableViewTemplateLayoutCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTableViewTemplateLayoutCell.app/ZZTableViewTemplateLayoutCell";
+			};
+			name = Debug;
+		};
+		2022DC1E1CB2283900716BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZTableViewTemplateLayoutCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZTableViewTemplateLayoutCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTableViewTemplateLayoutCell.app/ZZTableViewTemplateLayoutCell";
+			};
+			name = Release;
+		};
+		2022DC201CB2283900716BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZTableViewTemplateLayoutCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZTableViewTemplateLayoutCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZTableViewTemplateLayoutCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2022DC211CB2283900716BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZTableViewTemplateLayoutCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.zuber.app.qrcode.ZZTableViewTemplateLayoutCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZTableViewTemplateLayoutCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2022DBEC1CB2283900716BF8 /* Build configuration list for PBXProject "ZZTableViewTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2022DC171CB2283900716BF8 /* Debug */,
+				2022DC181CB2283900716BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2022DC191CB2283900716BF8 /* Build configuration list for PBXNativeTarget "ZZTableViewTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2022DC1A1CB2283900716BF8 /* Debug */,
+				2022DC1B1CB2283900716BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2022DC1C1CB2283900716BF8 /* Build configuration list for PBXNativeTarget "ZZTableViewTemplateLayoutCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2022DC1D1CB2283900716BF8 /* Debug */,
+				2022DC1E1CB2283900716BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2022DC1F1CB2283900716BF8 /* Build configuration list for PBXNativeTarget "ZZTableViewTemplateLayoutCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2022DC201CB2283900716BF8 /* Debug */,
+				2022DC211CB2283900716BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2022DBE91CB2283900716BF8 /* Project object */;
+}
